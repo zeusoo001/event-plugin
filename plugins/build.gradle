@@ -21,7 +21,7 @@ subprojects {
       with jar
     }
     into('lib') {
-      from configurations.runtimeClasspath
+      from configurations.compile
     }
     extension('zip')
   }
